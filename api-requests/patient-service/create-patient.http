@@ -3,8 +3,8 @@ POST http://localhost:4000/patients
 Content-Type: application/json
 
 {
-  "name": "Sabrina Lock 2",
-  "email": "trial@test.com",
+  "name": "Sabrina Lock with KafKa Broker",
+  "email": "test_billing_account@example7.com",
   "address": "164 elgin Avn",
   "dateOfBirth": "1999-09-09",
   "registeredDate": "2013-09-09"
