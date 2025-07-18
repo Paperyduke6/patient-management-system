@@ -14,9 +14,9 @@ FROM openjdk:21-jdk AS runner
 
 WORKDIR /app
 
-copy --from=builder ./app/target/patient-service-0.0.1-SNAPSHOT.jar ./app.jar
+copy --from=builder ./app/target/analytics-service-0.0.1-SNAPSHOT.jar ./app.jar
 
-EXPOSE 4000
+EXPOSE 4002
 
 ENTRYPOINT ["java","-jar","app.jar"]
 
